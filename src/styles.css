@@ -117,16 +117,19 @@ header input {
   }
 
 .checkbox-container .checkmark:after {
-  border-width: 0 3px 3px 0;
   border: solid white;
-  height: 10px;
-  left: 8px;
-  top: 3px;
-  transform: rotate(45deg);
-  width: 5px;
+    border-width: 0 3px 3px 0;  
+    left: 8px;
+    top: 3.5px;
+    width: 5px;
+    height: 10px;
+    transform: rotate(45deg);
 }
+
 .task-container p {
    font-family: Arial, Helvetica, sans-serif;
    font-size: 22px;
    margin-left: 10px;
 }
+
+
